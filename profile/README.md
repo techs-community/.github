@@ -34,10 +34,14 @@ formalidade e com muito bom humor.
 
 ## 🤝 Como participar
 
-1. Entre nos grupos de conversa da comunidade
-2. Escolha os assuntos que mais te interessam
-3. Respeite os demais participantes e o [Código de Conduta](../CODE_OF_CONDUCT.md)
-4. Compartilhe conhecimento, vagas e boas ideias 🚀
+A nossa comunidade acontece principalmente no **WhatsApp** 💬 — e para entrar é
+bem simples:
+
+1. 🐙 [**Abra uma issue aqui no GitHub**](../../issues/new) solicitando seu acesso
+2. ✅ A gente valida e te envia o convite do grupo no WhatsApp
+3. 🎉 Pronto! Agora é só escolher os assuntos que mais te interessam
+4. 🤝 Respeitar os demais participantes e o [Código de Conduta](../CODE_OF_CONDUCT.md)
+5. 🚀 Compartilhar conhecimento, vagas e boas ideias (e uns memes também 🤓)
 
 ## 📚 Recursos úteis
 

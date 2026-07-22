@@ -1,0 +1,63 @@
+name: "💬 Solicitar acesso à comunidade"
+description: "Peça seu convite para entrar na Techs Community no WhatsApp."
+title: "[Acesso] Quero participar da comunidade"
+labels: ["acesso", "novo-membro"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Bem-vindo(a) à Techs Community! 🤓
+
+        Preencha as informações abaixo para solicitar seu acesso. Assim que a
+        moderação validar, a gente te envia o convite do grupo no WhatsApp. 🚀
+
+  - type: input
+    id: nome
+    attributes:
+      label: "Como podemos te chamar?"
+      placeholder: "Ex: Ada Lovelace"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: "Com o que você mais se identifica?"
+      description: "Pode escolher a área que mais tem a ver com você."
+      options:
+        - "Desenvolvimento / Engenharia de Software"
+        - "Arquitetura de Software"
+        - "Sistemas / Infraestrutura / DevOps"
+        - "Segurança da Informação"
+        - "Dados / IA"
+        - "Estudante / Começando na área"
+        - "Outra"
+    validations:
+      required: true
+
+  - type: textarea
+    id: sobre
+    attributes:
+      label: "Conta um pouco sobre você"
+      description: "O que você curte na área tech? O que te trouxe até aqui?"
+      placeholder: "Ex: Trabalho com back-end, curto arquitetura e adoro um bom meme de programador. 🐛"
+    validations:
+      required: false
+
+  - type: input
+    id: origem
+    attributes:
+      label: "Como você conheceu a comunidade?"
+      placeholder: "Ex: indicação de um amigo, redes sociais, GitHub..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: regras
+    attributes:
+      label: "Combinado?"
+      options:
+        - label: "Li e concordo com o [Código de Conduta](../blob/main/CODE_OF_CONDUCT.md) da comunidade."
+          required: true
+        - label: "Entendo que a comunidade é um espaço divertido, nerd e respeitoso. 💛"
+          required: true
